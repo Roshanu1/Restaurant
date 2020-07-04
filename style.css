@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('images/background_home.jpg');
+ background-color: #875d08;  
 
 
 }
@@ -78,6 +78,8 @@ body {
 
 section.hero{
 
+
+
   
 }
 
@@ -87,11 +89,24 @@ section.hero{
 
   text-align: center;
   margin-top: 20%;
+  margin-bottom: 20%;
   
   margin-left: 40%;
   margin-right: 40%;
 
 } 
+@media only screen (max-width:600px){
+  .menu{
+    margin-top: 80%;
+    margin-bottom: 100%;
+  }
+}
+/*@media screen and (min-width:800px){
+  .menu{
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}*/
 .menu:hover{
   background-color: rgba(0,0,0,0.4);
   border:1px solid blue;
@@ -112,6 +127,7 @@ section a{
   .menu h1{
     font-size: 12px;
   }
+
 }
 
 main{
@@ -142,7 +158,7 @@ main{
   grid-column-end: span 4;
   display: flex;
   flex-direction: column;
-  background-color: orange;
+  background-color: #b8870d;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -229,4 +245,65 @@ main{
 
 }
 
+
+.about{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.about h1{
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+}
+
+/*.about p{
+  font-size: 20px;
+  color: #ffd4d8;
+  font-weight: bold;
+  font-family: Arial;
+
+}
+
+.about h3{
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff6d4;
+}*/
+
+section .about{
+ 
+
+}
+
+.text-glow  
+{  
+    font-size:1.75em;  
+    color:white;  
+    font-family:Arial; 
+    text-align: justify; 
+}  
+.text-glow:hover,  
+.text-glow:focus  
+.text-glow:active  
+{  
+ctx-stroke-width: 5.3px;  
+ctx-stroke-color: Green;  
+ctx-fill-color: Green;  
+text-shadow: 1px 0px 20px orange;  
+ctx-transition: width 0.3s;   
+transition: width 0.3s;  
+moz-transition: width 0.3s;   
+o-transition: width 0.3s;   
+.text-glow a  
+{  
+ ctx-transition: all 0.3s ease-in;   
+ ctx-transition: all 0.3s ease-in;  
+ M-transition: all 0.3s ease-in;   
+ O-transition: all 0.3s ease-in;   
+ text-decoration:none;  
+ color:white;  
+} 
 
